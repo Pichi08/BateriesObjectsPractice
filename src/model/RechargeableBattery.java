@@ -36,7 +36,7 @@ public class RechargeableBattery extends Battery implements Rechargeable{
     }
 
     public String toString(){
-        return "Bateria recargable. \nNombre: "+super.getName()+"\n Costo de vida útil: "+ calculateUsefulLifeCost()+"\n";
+        return "Bateria recargable.\nNombre: "+super.getName()+"\nCosto de vida útil: "+ calculateUsefulLifeCost()+"\n";
     }
 
 }

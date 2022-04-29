@@ -81,6 +81,8 @@ public class Company{
 	public double calculateUsefulPromLifeCost(){
 
         double out = 0;
+        double cal = 0;
+        double def = 0;
 
         for(int i = 0; i<MAX_BATTERIES; i++){
 
@@ -88,11 +90,15 @@ public class Company{
                 if(batteries[i] instanceof RechargeableBattery){
                     RechargeableBattery var = (RechargeableBattery)batteries[i];
                     out+=var.calculateUsefulLifeCost();
+                    cal++;
                 }
             }
 
         }
-		return out;
+
+        def = out/cal;
+
+		return def;
 	}
 
 }
