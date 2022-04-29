@@ -32,7 +32,7 @@ public class Battery {
 
 
     public String toString(){
-        return "Bateria no recargable./n Nombre: "+name+".\nCosto de vida útil: 0";
+        return "Bateria no recargable."+"\n Nombre: "+name+"\n Costo de vida útil: 0 \n";
     }
 
 }

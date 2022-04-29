@@ -68,7 +68,7 @@ public class Company{
                     RechargeableBattery var = (RechargeableBattery)batteries[i];
                     str+=var.toString();
                 } else {
-                    batteries[i].toString();
+                    str+=batteries[i].toString();
                 }
             }
 
