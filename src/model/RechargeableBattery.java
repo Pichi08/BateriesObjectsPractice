@@ -23,7 +23,7 @@ public class RechargeableBattery extends Battery implements Rechargeable{
     //n = 0.8
     @Override
     public double calculateUsefulLifeCost() {
-
+        
         double total = 0;
 
         if(type =='l'){
